@@ -1,0 +1,14 @@
+@import "../../../variables";
+
+.dot {
+  cursor: pointer;
+  display: inline-block;
+  width: $dot-size;
+  height: $dot-size;
+  line-height: $dot-size;
+  box-sizing: border-box;
+  &:hover {
+    border: 1px solid #fff;
+  }
+}
+

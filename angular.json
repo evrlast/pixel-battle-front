@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pixell-battle-front"
+    }
+  },
+  "defaultProject": "pixell-battle-front",
+  "cli": {
+    "analytics": "13ada8df-cd34-474f-9eaa-4a019c3b22df"
+  }
 }

@@ -1,0 +1,7 @@
+@import "../variables";
+
+.line {
+  white-space: nowrap;
+  line-height: $dot-size;
+  height: $dot-size;
+}

@@ -1,0 +1,19 @@
+<div class="tools">
+  <h1>Tool bar</h1>
+  <h2>Pixel color</h2>
+  <div class="pixel-color">
+    <input
+      class="color-picker-block"
+      [cpOutputFormat]="'hex'"
+      [colorPicker]="pixelColor"
+      [style.background]="pixelColor"
+      [cpToggle] = "true"
+      [cpDialogDisplay] = "'inline'"
+      (colorPickerChange) = emitColor($event)
+    />
+
+
+  </div>
+
+
+</div>
